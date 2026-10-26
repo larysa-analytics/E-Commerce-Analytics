@@ -1,6 +1,5 @@
 SELECT 
-    strftime('%Y', s.order_date) AS order_year,
-    strftime('%m', s.order_date) AS order_month,
+    date(s.order_date, 'start of month') AS period, 
     c.customer_country,
     c.customer_state,
     p.brand,
@@ -20,8 +19,7 @@ JOIN product p ON o.product_id = p.product_id
 JOIN customer c ON s.customer_id = c.customer_id
 WHERE s.order_status != 'Cancelled'
 GROUP BY 
-    order_year,
-    order_month,
+    date(s.order_date, 'start of month'),
     c.customer_country,
     c.customer_state,
     p.brand,
