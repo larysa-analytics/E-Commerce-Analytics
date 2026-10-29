@@ -1,4 +1,4 @@
-# E-Commerce-Analytics
+# E-Commerce Executive & Category Analytics
 
 ## 📊 Project Overview
 Developed an interactive 2-page Power BI dashboard analyzing **$38M+** in e-commerce revenue to evaluate key financial drivers, order volume dynamics, and product category performance. 
