@@ -25,5 +25,4 @@ Developed an interactive 2-page Power BI dashboard analyzing **$38M+** in e-comm
 
 ## 📁 Repository Structure
 - `sql/` — Contains backend SQL transformation scripts and data preparation queries.
-- `data/` — Processed analytical `.csv` dataset exported for dashboard ingestion.
 - `Ecommerce_Analytics_v1.0.pbix` — The main Power BI interactive dashboard file.
