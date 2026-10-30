@@ -11,7 +11,7 @@ Developed an interactive 2-page Power BI dashboard analyzing **$38M+** in e-comm
 ## 🔄 Data Pipeline Architecture
 1. **Data Source:** Raw e-commerce dataset sourced from [Kaggle](https://www.kaggle.com/datasets/datascikhan/e-commerce-sales-and-customer-analytics/data?).
 2. **Ingestion & Storage:** Imported raw files into a local **SQLite** database via **DBeaver**.
-3. **Data Transformation (SQL):** Executed analytical SQL queries (CTEs, window functions, aggregations) to clean data, join tables, and calculate core business metrics.
+3. **Data Transformation (SQL):** Executed analytical SQL queries to clean data, join tables, and calculate core business metrics.
 4. **Export & BI Visualization:** Exported the processed analytical summary as a `.csv` dataset into **Power BI** to build interactive executive dashboards.
 
 ---
