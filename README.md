@@ -12,7 +12,7 @@ Developed an interactive 2-page Power BI dashboard analyzing **$38M+** in e-comm
 1. **Data Source:** Raw e-commerce dataset sourced from [Kaggle](https://www.kaggle.com/datasets/datascikhan/e-commerce-sales-and-customer-analytics/data?).
 2. **Ingestion & Storage:** Imported raw files into a local **SQLite** database via **DBeaver**.
 3. **Data Transformation (SQL):** Executed analytical SQL queries to clean data, join tables, and calculate core business metrics.
-4. **Export & BI Visualization:** Exported the processed analytical summary as a `.csv` dataset into **Power BI** to build interactive executive dashboards.
+4. **Export & BI Visualization:** Generated the final **aggregated dataset** (available via [Google Drive Link](https://drive.google.com/file/d/19KYmsCEpWKqz-gnw1uSG7BmvpDeWcA1y/view?usp=sharing) and loaded it into **Power BI** to build interactive executive dashboards
 
 ---
 
